@@ -1,0 +1,36 @@
+# requirements.txt
+# Core dependencies - lightweight versions
+streamlit==1.28.1
+pandas==2.0.3
+numpy==1.24.3
+
+# PDF Processing - memory efficient
+PyMuPDF==1.23.3
+pdfplumber==0.9.0
+
+# LLM - Use free/lightweight options
+openai==0.28.1
+google-generativeai==0.3.2
+huggingface-hub==0.23.0
+transformers==4.38.2
+torch==2.2.0
+accelerate==0.27.2
+tokenizers==0.15.2
+
+# Data processing
+scikit-learn==1.3.0
+plotly==5.17.0
+seaborn==0.12.2
+matplotlib==3.7.2
+
+# Utilities
+python-dotenv==1.0.0
+regex==2023.8.8
+openpyxl==3.1.2
+wordcloud==1.9.2
+
+# Gradio for lightweight UI
+gradio==3.50.2
+
+# Memory optimization
+psutil==5.9.6
